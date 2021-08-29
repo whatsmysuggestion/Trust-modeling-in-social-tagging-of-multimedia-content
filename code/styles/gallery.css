@@ -1,0 +1,53 @@
+/*
+Template Name: Commercial Photography
+File: Gallery CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#gallery{
+	display:block;
+	width:100%;
+	margin-bottom:25px;
+	}
+
+#gallery ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#gallery li{
+	display:block;
+	float:left;
+	width:300px;
+	margin:0 30px 20px 0;
+	padding:0;
+	}
+
+#gallery li.last{
+	margin-right:0;
+	}
+
+#gallery li a img{
+	display:block;
+	width:290px;
+	height:140px;
+	margin:0;
+	padding:0;
+	padding:4px;
+	border:1px solid #B7B7B7;
+	border-bottom:none;
+	}
+
+#gallery li strong{
+	display:block;
+	margin:0;
+	padding:8px 0;
+	color:#FFFFFF;
+	background-color:#014A81;
+	font-size:12px;
+	text-align:center;
+	text-transform:uppercase;
+	}

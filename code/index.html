@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" dir="ltr">
+<head profile="http://gmpg.org/xfn/11">
+<title>Commercial Photography</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="imagetoolbar" content="no" />
+<link rel="stylesheet" href="styles/layout.css" type="text/css" />
+<script type="text/javascript" src="scripts/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $(".thumbs a").click(function () {
+        var imgpath = $(this).attr("href");
+        var imgalt = $(this).attr("alt");
+        $("#placeholder").attr({
+            src: imgpath,
+            alt: imgalt
+        });
+        return false;
+    });
+});
+</script>
+</head>
+<body id="top">
+<div class="wrapper col1">
+  <div id="header" class="clear"> 
+    <div id="topbar" class="clear"> 
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Tags</a></li>
+        <li><a href="index.html">You</a> 
+          <ul>
+            <li><a href="index.html">Your Account</a></li>
+            <li><a href="index.html">Your Profile</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contacts</a> 
+          <ul>
+            <li><a href="#">Recent Uploads</a></li>
+            <li><a href="#">Your Friends</a></li>
+            <li><a href="#">Invite Friends</a></li>
+          </ul>
+        </li>
+        <li><a href="index.html">Upload</a></li>
+        <li class="last"><a href="index.html">Gallery</a></li>
+      </ul>
+      <!--<form action="#" method="post" id="search">
+        <fieldset>
+          <legend>Site Search</legend>
+          <input type="text" value="Search Our Website&hellip;" onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;" />
+          <input type="image" id="go" src="images/submit.gif" alt="Submit" />
+        </fieldset>
+      </form>-->
+    </div>
+    <div id="logo"> 
+      <h1><a href="index.html">Trust modeling in social tagging of multimedia 
+        content</a></h1>
+      <p>In Tags We Trust</p>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="homepage" class="clear"> 
+    <p><img id="placeholder" src="images/demo/header.jpg" alt="" /></p>
+    <ul class="thumbs">
+      <li><a href="images/demo/header1.jpg"><img src="images/demo/header1.jpg" alt="" /></a></li>
+      <li><a href="images/demo/header3.jpg"><img src="images/demo/header3.jpg" alt="" /></a></li>
+      <li><a href="images/demo/header2.jpg"><img src="images/demo/header2.jpg" alt="" /></a></li>
+      <li><a href="images/demo/header4.jpg"><img src="images/demo/header4.jpg" alt="" /></a></li>
+      <li><a href="images/demo/header5.jpg"><img src="images/demo/header5.jpg" alt="" /></a></li>
+      <li class="last"><a href="images/demo/header6.jpg"><img src="images/demo/header6.jpg" alt="" /></a></li>
+    </ul>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="container" class="clear"> 
+    <!-- ####################################################################################################### -->
+    <div id="hpage_info" class="clear"> 
+      <div class="fl_left"> 
+        <h2 class="title">Admin Login</h2>
+        <p> 
+        <form action="adminlogin.jsp" name="form" method="post" onSubmit="return validation1()">
+          <table cellspacing="15">
+            <tr> 
+              <td>Username:</td>
+              <td><input type="text" style="background-color:#3366F" name="name"></td>
+            </tr>
+            <tr> 
+              <td>Password:</td>
+              <td><input type="password" style="background-color:#3366F" name="password"></td>
+            </tr>
+            <tr> 
+              <td><input type="submit" class="submit-form" name="sub" value="Submit"></td>
+              <td><input type="reset" class="reset-form" name="clear" value="Clear"></td>
+            </tr>
+          </table>
+        </form></p>
+        <p> 
+        <hr width="230"></p>
+        <h2 class="title">User Login</h2>
+        <p> 
+        <form action="userlogin.jsp" name="form1" method="post" onSubmit="return validation2()">
+          <table cellspacing="15">
+            <tr> 
+              <td>Username:</td>
+              <td><input type="text" style="background-color:#3366F" name="email"></td>
+            </tr>
+            <tr> 
+              <td>Password:</td>
+              <td><input type="password" style="background-color:#3366F" name="password"></td>
+            </tr>
+            <tr> 
+              <td><input type="submit" class="submit-form" name="sub" value="Submit"></td>
+              <td><input type="reset" class="reset-form" name="clear" value="Clear"></td>
+            </tr>
+          </table>
+        </form></p>
+        <p><a href="profile1.jsp">Register here</a></p>
+      </div>
+      <div class="fl_right clear"> 
+        <h2 class="title">Menu</h2>
+        <ul>
+          <li> 
+            <div class="imgholder"><img src="images/demo/header11.jpg" alt="" /></div>
+            <p class="name">Home</p>
+          </li>
+          <li> 
+            <div class="imgholder"><img src="images/demo/header33.jpg" alt="" /></div>
+            <p class="name">Tag</p>
+          </li>
+          <li class="last"> 
+            <div class="imgholder"><img src="images/demo/header22.jpg" alt="" /></div>
+            <p class="name">Profile</p>
+          </li>
+          <li> 
+            <div class="imgholder"><img src="images/demo/header44.jpg" alt="" /></div>
+            <p class="name">Friends</p>
+          </li>
+          <li> 
+            <div class="imgholder"><img src="images/demo/header55.jpg" alt="" /></div>
+            <p class="name">Upload</p>
+          </li>
+          <li class="last"> 
+            <div class="imgholder"><img src="images/demo/header66.jpg" alt="" /></div>
+            <p class="name">Gallery</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- ####################################################################################################### -->
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+
+
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper">
+  <div id="copyright" class="clear"> 
+  
+    <p align="center">Trust modeling in social tagging of multimedia content</p>
+  </div>
+</div>
+</body>
+</html>

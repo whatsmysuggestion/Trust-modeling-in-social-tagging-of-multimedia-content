@@ -1,0 +1,43 @@
+/*
+Template Name: Commercial Photography
+File: Portfolio CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#portfolio{
+	display:block;
+	width:100%;
+	line-height:1.6em;
+	}
+
+#portfolio ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#portfolio li{
+	display:block;
+	float:left;
+	width:450px;
+	margin:0 60px 45px 0;
+	padding:0;
+	border-bottom:1px dotted #666666;
+	}
+
+#portfolio li.last{
+	margin-right:0;
+	}
+
+#portfolio li img{
+	width:440px;
+	margin-bottom:15px;
+	padding:4px;
+	border:1px solid #B7B7B7;
+	}
+
+#portfolio .readmore{
+	text-align:right;
+	}
